@@ -1,0 +1,98 @@
+body{
+	background-color: indigo;
+}
+p{
+	font-size: 50px;
+	background-color: green;
+	color: white;
+}
+.p1{
+	display: inline-block;
+}
+.s1{
+	border: dotted 2px red;
+	display: block;
+}
+ul{
+	list-style-type: none;
+	color: white;
+}
+li{
+	border: double 2px salmon;
+	display: inline;
+}
+li:hover{
+	background-color: lightslategrey;
+}
+
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: lightblue;
+	border: ridge 20px violet;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 20px;
+	border-left:  dashed yellow 20px;
+	border-right: dotted olive 20px;
+	border-bottom: dashed red 20px;
+	border-top: groove orange 20px;
+	margin: 50px;
+	border-radius: 10% 20%;
+}
+#second{
+width: 700px;
+height: 700px;
+background-color: violet;
+border: groove 20px blue;
+font-size: 50px;
+text-align: center;
+padding: 50px;
+border-style: dotted dashed groove;
+border color: coral navajowhite darkgreen indigo;
+border-radius: 5% 10% 15% 20%;
+}
+#third{
+
+		width: 800px;
+	height: 200px;
+	border: dotted 10px palevioletred;
+	border-left: double dotted 10px palevioletred;
+	border-top: medium dashed blue;
+    border-bottom: medium dashed blue ;
+	margin: 20px;
+	center ;
+}
+#forth{
+	width: 800px;
+	height: 200px;
+	border	width: 800px;
+	height: 200px;
+	height: 200px;
+	border-right:  darkviolet  dotted 10px;
+    border-left:   darkviolet  dotted 10px;
+   border-top: medium dotted green ;
+    border-bottom:  medium dotted green ;
+   margin: 20px;
+}
+
+#d5,#d6,#d7{
+	margin: 200px;
+	color: royalblue;
+	font-size: 50px;
+
+}
+#d5{
+	border: solid 20px  forestgreen;
+	background-color: lightgreen;
+}
+#d6{
+	border: solid 20px gold;
+	background-color: yellow;
+}
+#d7{
+	border: solid 10px darkred;
+	background-color: red;
+}

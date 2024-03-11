@@ -1,0 +1,39 @@
+body{
+	background-color:brown;
+}
+p{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: Georgia, serif;
+}
+.in1{
+	display: block;
+	margin-bottom: 20px;
+	font-family: Forum, serif;
+	height: 1cm;
+	background-color: lightsalmon;
+	color: brown;
+}
+}
+.s1,.s2 {
+	font-size: 70px;
+	font-family: serif;
+	color: white;
+	margin-bottom: 10px;
+}
+.s2{
+	color: red;
+}
+.in3{
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	background-color: floralwhite;
+}
+.option{
+	font-family: Forum, serif;
+}
+.submit{
+	text-align: center;
+}

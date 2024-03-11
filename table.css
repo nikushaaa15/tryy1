@@ -1,0 +1,49 @@
+body{
+	background-color: lightpink; }
+p{
+	font-size:50px;
+	font-family: Georgia, serif, system-ui;
+	text-align: center;
+	color: royalblue;
+}
+table{
+	border: double 5px yellow;
+	width: 50%;
+	font-size: 24px;
+	border-collapse: separate;
+	margin: auto;
+}
+th,td{
+	border: solid 2px darksalmon;
+	width: 25%;
+	height: 1cm;
+}
+tr:hover{
+	background-color: lightgoldenrodyellow;
+}
+td:hover{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	color: lightskyblue;
+	font-size: 1,5em;
+	background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+}
+tr:nth-child(odd){
+	background-color: lightblue;
+}
+}
+tr:nth-child(even){
+	background-color: lightyellow;
+}
+.sc{
+	text-align: right;
+	vertical-align: middle;
+	color: green;
+	font-style: Italic;
+}
+caption{
+	font-size: 50px;
+	color: mediumvioletred;
+	background: linear-gradient( to left,red,orange,yellow,darkgreen,skyblue,blue,mediumvioletred);
+}

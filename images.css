@@ -1,0 +1,48 @@
+body{
+	background-color: lightsteelblue;
+	background-image: url(https://cdn.pixabay.com/animation/2022/09/28/13/39/13-39-31-176_512.gif);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+
+p{
+	font-size: 0.8in;
+	background-image: url(https://img.freepik.com/premium-photo/simple-white-pink-gradient-abstract-background_7182-481.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1707609600&semt=ais) ;
+	background-size: cover;
+	color: deepskyblue;
+	text-align: center;
+	background-position: center;
+	display: flex;
+}
+div{
+	height: 300px;
+	width: 300px;
+	margin: 20px;
+}
+#d1{
+	background-image: url(https://i.pinimg.com/736x/5d/84/f8/5d84f88de70b4bca89c14d70aab9b078.jpg);
+	background-size: cover;
+	border: ridge 20px hotpink;
+	display: flex;
+	
+}
+#d2{
+background-image: url(https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/tenor_1.gif);
+border: solid 30px
+border-image: linear-gradient(blue,yellow) 30;
+margin: auto;
+display: flex;
+}
+#img2{
+	display: block;
+	margin: auto;
+	width: 700px;
+	height: 500px;
+	border-radius: 50% ;
+	box-shadow: 0px 0px 50px blue ;
+}
+#img1{
+	width: 50%;
+}
+}

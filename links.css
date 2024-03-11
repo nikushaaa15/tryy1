@@ -1,0 +1,177 @@
+body{
+	background-color: lightpink;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: skyblue;
+	background-color: lightcyan;
+	font-family: cursive;
+}
+div{
+	width: 500px;
+	height: 500px;
+	p
+	background-image: url(https://t3.ftcdn.net/jpg/03/57/76/24/360_F_357762401_Q6IYG6rSR6yoy2mnBsOF3ZtuYVzBNARe.jpg);
+}
+ul{
+	list-style-type: none;
+	margin: 5px;
+}
+.a1{
+	font-size: 50px;
+	color: indianred;
+	text-decoration: none;
+	font-family: monospace;
+		margin: 5px;
+}
+.a1:visited{
+	color: mediumpurple;
+	font-size: 30px;
+}
+.a1:hover{
+	color: hotpink;
+	border: lightyellow;
+}
+.a1:active{
+background-color: lightgoldenrodyellow;
+border: lightyellow;
+}
+.a2{
+	font-size: 35px;
+	border: dashed 5px forestgreen;
+	color: darkred;
+	text-decoration: none;
+	background-color: orangered;
+}
+.a2:active{
+	background: forestgreen;
+border: dashed 5px lightyellow;
+text-decoration: none;
+font-weight: 500;
+}
+
+.b1{
+	font-size: 24px;
+	background: linear-gradient(lightskyblue,lightyellow);
+	padding: 15px;
+	font-family: "Caveat", cursive;
+	border: double 10px gold;
+	border-radius: 50%;
+	color: darkseagreen;
+	text-decoration: none;
+	box-shadow: none;
+}
+.b1:hover{
+	font-size: 24px;
+	background: linear-gradient(skyblue,lightgoldenrodyellow);
+	font-weight: 900;
+	text-decoration: none;
+}
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+
+
+
+/* CSS */
+.button-36 {
+  background: radial-gradient(skyblue,lightpink);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}

@@ -1,0 +1,19 @@
+body{
+	background-color: lightblue;
+}
+p{
+	font-size: 50px;
+	color: royalblue;
+	text-align: center;
+	font-family: monospace;
+	text-decoration: none;
+}
+.figures{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+	color: royalblue;
+}
